@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CafeBot — AI Cafe Ordering Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="cafe-header">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">☕</div>
+          <div>
+            <h1>CafeBot</h1>
+            <p class="subtitle">Roast &amp; Ember Cafe · Ordering Assistant</p>
+          </div>
+        </div>
+        <div class="order-summary-badge" id="orderSummaryBadge">
+          Order: 0 items · $0.00
+        </div>
+      </header>
+
+      <main class="chat-container">
+        <div class="quick-prompts" aria-label="Quick suggestions">
+          <button type="button" class="prompt-chip" data-prompt="Show me the menu">
+            Browse Menu
+          </button>
+          <button type="button" class="prompt-chip" data-prompt="What coffees do you have?">
+            Coffee Options
+          </button>
+          <button type="button" class="prompt-chip" data-prompt="Order 1 Velvet Flat White">
+            Try Flat White
+          </button>
+          <button type="button" class="prompt-chip" data-prompt="Review my order">
+            Review Order
+          </button>
+        </div>
+
+        <section
+          id="chatMessages"
+          class="chat-messages"
+          aria-live="polite"
+          aria-label="Conversation history"
+        ></section>
+
+        <form id="chatForm" class="chat-input-bar" autocomplete="off">
+          <input
+            id="chatInput"
+            type="text"
+            placeholder="Ask about our menu, sizes, allergens, or place an order..."
+            aria-label="Message CafeBot"
+            required
+          />
+          <button type="submit" id="sendBtn">Send</button>
+        </form>
+      </main>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

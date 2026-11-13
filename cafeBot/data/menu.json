@@ -1,0 +1,182 @@
+{
+  "cafeName": "Roast & Ember Cafe",
+  "currency": "USD",
+  "categories": [
+    "Coffee",
+    "Tea",
+    "Cold Drinks",
+    "Burgers",
+    "Sandwiches",
+    "Desserts"
+  ],
+  "items": [
+    {
+      "id": "cof-01",
+      "name": "Velvet Flat White",
+      "description": "Double ristretto shot pulled over silky micro-foamed whole milk.",
+      "price": 4.75,
+      "category": "Coffee",
+      "sizes": ["8 oz", "12 oz"],
+      "options": ["Whole Milk", "Oat Milk", "Almond Milk", "Decaf"],
+      "allergens": ["Dairy"],
+      "dietary": ["Vegetarian", "Gluten-Free"],
+      "available": true
+    },
+    {
+      "id": "cof-02",
+      "name": "Caramel Espresso Cortado",
+      "description": "Equal parts rich dark-roast espresso and lightly steamed milk with house sea-salt caramel.",
+      "price": 4.95,
+      "category": "Coffee",
+      "sizes": ["6 oz", "10 oz"],
+      "options": ["Whole Milk", "Oat Milk", "Extra Shot"],
+      "allergens": ["Dairy"],
+      "dietary": ["Vegetarian", "Gluten-Free"],
+      "available": true
+    },
+    {
+      "id": "cof-03",
+      "name": "Single-Origin Pour Over",
+      "description": "Hand-brewed Ethiopian washed beans with bright jasmine and bergamot notes.",
+      "price": 5.25,
+      "category": "Coffee",
+      "sizes": ["10 oz", "14 oz"],
+      "options": ["Hot", "Flash Chilled"],
+      "allergens": [],
+      "dietary": ["Vegan", "Gluten-Free", "Dairy-Free"],
+      "available": true
+    },
+    {
+      "id": "tea-01",
+      "name": "Ceremonial Matcha Latte",
+      "description": "First-harvest Uji matcha whisked to order with steamed milk and light agave.",
+      "price": 5.50,
+      "category": "Tea",
+      "sizes": ["12 oz", "16 oz"],
+      "options": ["Oat Milk", "Whole Milk", "Unsweetened"],
+      "allergens": ["Dairy"],
+      "dietary": ["Vegetarian", "Vegan Option", "Gluten-Free"],
+      "available": true
+    },
+    {
+      "id": "tea-02",
+      "name": "Spiced Chai Infusion",
+      "description": "Assam black tea simmered with green cardamom, cinnamon bark, ginger, and clove.",
+      "price": 4.60,
+      "category": "Tea",
+      "sizes": ["12 oz", "16 oz"],
+      "options": ["Whole Milk", "Oat Milk", "Honey Drizzle"],
+      "allergens": ["Dairy"],
+      "dietary": ["Vegetarian", "Gluten-Free"],
+      "available": true
+    },
+    {
+      "id": "cld-01",
+      "name": "Kyoto Slow-Drip Cold Brew",
+      "description": "14-hour cold-extracted Colombian roast served over crystal ice.",
+      "price": 4.90,
+      "category": "Cold Drinks",
+      "sizes": ["12 oz", "16 oz"],
+      "options": ["Black", "Sweet Cream Float", "Oat Milk"],
+      "allergens": [],
+      "dietary": ["Vegan", "Gluten-Free", "Dairy-Free"],
+      "available": true
+    },
+    {
+      "id": "cld-02",
+      "name": "Yuzu Espresso Tonic",
+      "description": "Sparkling botanical tonic layered with citrus yuzu juice and a bright espresso shot.",
+      "price": 5.75,
+      "category": "Cold Drinks",
+      "sizes": ["12 oz"],
+      "options": ["Regular Ice", "Light Ice"],
+      "allergens": [],
+      "dietary": ["Vegan", "Gluten-Free", "Dairy-Free"],
+      "available": true
+    },
+    {
+      "id": "cld-03",
+      "name": "Sparkling Hibiscus Berry Spritz",
+      "description": "Steeped hibiscus petals muddled with crushed blackberries and sparkling mineral water.",
+      "price": 4.80,
+      "category": "Cold Drinks",
+      "sizes": ["12 oz", "16 oz"],
+      "options": ["Fresh Mint", "No Sugar"],
+      "allergens": [],
+      "dietary": ["Vegan", "Gluten-Free", "Caffeine-Free"],
+      "available": false
+    },
+    {
+      "id": "brg-01",
+      "name": "Brioche Smash Burger",
+      "description": "Double seared grass-fed beef patties, aged cheddar, caramelized onions, and house pickle aioli on toasted brioche.",
+      "price": 12.95,
+      "category": "Burgers",
+      "sizes": ["Single", "Double"],
+      "options": ["No Onions", "Extra Cheese", "Gluten-Free Bun"],
+      "allergens": ["Gluten", "Dairy", "Egg"],
+      "dietary": [],
+      "available": true
+    },
+    {
+      "id": "brg-02",
+      "name": "Crispy Portobello Halloumi Burger",
+      "description": "Herb-crusted portobello cap, grilled halloumi, roasted red pepper relish, and baby arugula.",
+      "price": 11.75,
+      "category": "Burgers",
+      "sizes": ["Regular"],
+      "options": ["Spicy Harissa", "Gluten-Free Bun"],
+      "allergens": ["Gluten", "Dairy"],
+      "dietary": ["Vegetarian"],
+      "available": true
+    },
+    {
+      "id": "snd-01",
+      "name": "Roasted Turkey & Pesto Focaccia",
+      "description": "Herb-roasted turkey breast, basil walnut pesto, provolone, and vine tomato on warm rosemary focaccia.",
+      "price": 10.50,
+      "category": "Sandwiches",
+      "sizes": ["Half", "Full"],
+      "options": ["Toasted", "No Pesto"],
+      "allergens": ["Gluten", "Dairy", "Tree Nuts"],
+      "dietary": [],
+      "available": true
+    },
+    {
+      "id": "snd-02",
+      "name": "Smashed Avocado & Sourdough Melt",
+      "description": "Country sourdough layered with smashed Hass avocado, pickled shallots, radish, and toasted sesame dukkah.",
+      "price": 9.50,
+      "category": "Sandwiches",
+      "sizes": ["Full"],
+      "options": ["Add Poached Egg", "Vegan (No Butter)"],
+      "allergens": ["Gluten", "Sesame", "Tree Nuts"],
+      "dietary": ["Vegan Option", "Vegetarian"],
+      "available": true
+    },
+    {
+      "id": "des-01",
+      "name": "Burnt Basque Cheesecake",
+      "description": "Creamy crustless vanilla bean cheesecake with a caramelized top and berry compote.",
+      "price": 6.75,
+      "category": "Desserts",
+      "sizes": ["Single Slice"],
+      "options": ["Warm Compote", "Plain"],
+      "allergens": ["Dairy", "Egg"],
+      "dietary": ["Vegetarian", "Gluten-Free"],
+      "available": true
+    },
+    {
+      "id": "des-02",
+      "name": "Brown-Butter Almond Croissant",
+      "description": "Twice-baked laminated pastry filled with almond frangipane and topped with toasted flaked almonds.",
+      "price": 4.85,
+      "category": "Desserts",
+      "sizes": ["Regular"],
+      "options": ["Warmed", "Room Temperature"],
+      "allergens": ["Gluten", "Dairy", "Egg", "Tree Nuts"],
+      "dietary": ["Vegetarian"],
+      "available": true
+    }
+  ]
+}

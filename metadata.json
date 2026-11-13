@@ -1,0 +1,6 @@
+{
+  "name": "CafeBot — Roast & Ember",
+  "description": "Interactive 3D cafe counter and CafeBot ordering chat interface built with Three.js and XR Blocks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
